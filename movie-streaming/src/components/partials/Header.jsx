@@ -22,7 +22,7 @@ const Header = ({data}) => {
       
       <h1 className='w-[80%] text-4xl font-black text-white'>{data.name || data.title || data.original_name || data.original_title}</h1>
 
-      <p className='w-[50%] text-white mt-3 '>{data.overview.slice(0,100)}....<Link to={`/${data.media_type}/details/${data.id}`}   className='text-blue-400'>more</Link></p>
+      <p className='w-[50%] text-white mt-3 '>{data.overview}....<Link to={`/${data.media_type}/details/${data.id}`}   className='text-blue-400'>more</Link></p>
 
       <p className='text-white '>
       <i className="ri-megaphone-fill text-yellow-500"></i>{data.release_date || "No information"}

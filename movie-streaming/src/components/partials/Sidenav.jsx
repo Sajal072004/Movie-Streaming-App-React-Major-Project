@@ -38,9 +38,7 @@ const Sidenav = () => {
 
         </h1>
 
-        <Link className='hover:bg-[#6556CD] hover:text-white duration-300 rounded-lg p-4 text-[17px]'> <i className="mr-2 ri-information-2-fill"></i>About Me</Link>
-        <Link className='hover:bg-[#6556CD] hover:text-white duration-300 rounded-lg p-4 text-[17px]'> <i className="mr-2 ri-phone-fill"></i>Contact Me</Link>
-
+        <a href="https://sajalnamdeo.netlify.app/" target='_blank' className='hover:bg-[#6556CD] hover:text-white duration-300 rounded-lg p-4 text-[17px]'> <i className="mr-2 ri-information-2-fill"></i>About Me</a>
       </nav>
 
 
